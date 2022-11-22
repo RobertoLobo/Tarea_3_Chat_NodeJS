@@ -1,0 +1,14 @@
+{
+    "name": "chatnodejs",
+    "version": "0.0.1",
+    "description": "Implementando un Chat con Node del Lado Servidor",
+    "main": "app.js",
+    "author": "Roberto Campero Calderon Cruz <cruz.campero@alumnos.udg.mx>",
+    "dependencies": {
+        "express": "^4.18.2",
+        "socket.io": "^4.5.3"
+    },
+    "scripts": {
+        "start": "node app.js"
+    }
+}
