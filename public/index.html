@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title>Tarea 3: Chat con NodeJS</title>
+		<link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+	<body>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>-->
+        <div class="contenedor">
+			<div class="encabezado">
+				<h2>NodeJS Chat</h2>
+			</div>
+			<div id="ventanaChat">
+				<div id="mensajes"></div>
+			</div>
+			<div id="formulario">
+				<input id="usuario" type="text" placeholder="Nombre" autocomplete="off"/>
+				<input id="entrada" type="text" placeholder="Mensaje" autocomplete="off" /><button id="enviar">Enviar</button>
+			</div>
+		</div>
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
